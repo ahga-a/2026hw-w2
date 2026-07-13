@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <!--nav-->
         <nav class="nav df">
             <div class="link df">
                 <h5 class="logo">URBNSTEP</h5>
-                <p class="mr40"><a href="#">商品列表</a></p>
-                <p><a href="#">品牌故事</a></p>
+                <ul class="df">
+                    <li class="mr40"><a href="#">商品列表</a></li>
+                    <li><a href="#">品牌故事</a></li>
+                </ul>
             </div>
             <div class="customer"><a href="#"><span class="material-symbols-outlined">person</span></a></div>
         </nav>
@@ -43,57 +48,76 @@
                 </ul>
             </div>
             <div class="productCards col-10">
-                <div class="cards">
-                    <div class="card">
-                        <img src="img/Type=PLATFORM 404-Navy.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$2,600</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/Type=PLATFORM 404-Beige.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$2,600</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/Type=VM001.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$2,600</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/Type=Melty Kiss.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$4,000</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/Type=BOOMBLOK-White.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$3,200</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/Type=BOOMBLOK-Denim.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$3,200</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/Type=R_UNER.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$4,000</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/Type=Sugar Snap.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$4,000</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/Type=Neofoam.png" alt="shoes">
-                        <p class="productName">PLATFORM 404</p>
-                        <p>NT$4,000</p>
-                    </div>
-                </div>
+                <ul class="cards">
+                    <li class="card">
+                        <a href="http://127.0.0.1:5500/Platform%20404.html">
+                            <img src="img/Type=PLATFORM 404-Navy.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$2,600</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <img src="img/Type=PLATFORM 404-Beige.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$2,600</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <img src="img/Type=VM001.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$2,600</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <img src="img/Type=Melty Kiss.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$4,000</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <img src="img/Type=BOOMBLOK-White.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$3,200</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <img src="img/Type=BOOMBLOK-Denim.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$3,200</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <img src="img/Type=R_UNER.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$4,000</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <img src="img/Type=Sugar Snap.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$4,000</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <img src="img/Type=Neofoam.png" alt="shoes">
+                            <h3 class="productName">PLATFORM 404</h3>
+                            <p>NT$4,000</p>
+                        </a>
+                    </li>
+                </ul>
                 <!--pages-->
                 <div class="pages">
                     <ul>
-                        <li><a href="#"><</a></li>
+                        <li><a href="#">< </a>
+                        </li>
                         <li><a href="#">1</a></li>
                         <li><a href="#">2</a></li>
                         <li><a href="#">3</a></li>
@@ -116,7 +140,7 @@
             <div>
                 <h5 class="logo">URBNSTEP</h5>
             </div>
-            <div class=" footerlink df">   
+            <div class=" footerlink df">
                 <p class="mr40"><a href="#">商品列表</a></p>
                 <p><a href="#">品牌故事</a></p>
             </div>
@@ -128,4 +152,5 @@
         </div>
     </div>
 </body>
+
 </html>

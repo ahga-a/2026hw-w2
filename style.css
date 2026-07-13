@@ -109,6 +109,10 @@ a {
 
 .link a {
     padding: 12px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 5%;
 }
 
 .nav {
@@ -352,10 +356,28 @@ a {
     padding-top: 12px;
     padding-bottom: 4px;
 }
+.text h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 5%;
+}
 
-.text {
+.text li{
+    font-weight: 400;
+    color: #6C757D;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    width: 526px;
+}
+.text p{
+    font-weight: 400;
+    color: #6C757D;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 5%;
     padding-bottom: 12px;
-    border-bottom: 1px solid #DEE2E6;
     width: 526px;
 }
 
@@ -364,7 +386,9 @@ a {
     margin-bottom: 40px;
 }
 
-
+.pb12{
+    padding-bottom: 12px;
+}
 .mr8 {
     margin-right: 8px;
 }
@@ -403,4 +427,7 @@ a {
 
 .green {
     color: #57A203;
+}
+.bb{
+    border-bottom: 1px solid #DEE2E6;
 }
