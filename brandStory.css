@@ -1,0 +1,309 @@
+:root {
+    --primary-color: #212529;
+    --second-color: #57A203;
+    --third-color: #DEE2E6;
+    --forth-color: #6C757D;
+    --fifth-color: #F8F9FA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+body {
+    font-family: Noto Sans TC;
+    letter-spacing: 5%;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 5%;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0px 12px;
+}
+
+.nav {
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+}
+
+.customer {
+    margin-left: auto;
+}
+
+.customer span {
+    width: 18px;
+    height: 18px;
+    padding: 3px;
+}
+
+.logo {
+    font-family: "Mina";
+    font-weight: 700;
+    padding: 8px 12px;
+    margin-right: 48px;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+}
+
+.banner {
+    height: 400px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-size: cover;
+    background-position: center
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: bold;
+    padding: 151px 0px;
+}
+
+@media (max-width:375px) {
+    .d-sm-none {
+        display: none;
+    }
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #212529;
+    padding-bottom: 24px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    color: #57a203;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 5%;
+}
+
+p {
+    font-size: 16px;
+    color: #212529;
+}
+
+.intro {
+    background: #f5fee7;
+    padding: 32px;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 64px;
+}
+
+.intro h3 {
+    padding-bottom: 12px;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.df {
+    display: flex;
+}
+
+.pb4 {
+    padding-bottom: 4px;
+}
+
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.pb16 {
+    padding-bottom: 16px;
+}
+
+.pb24 {
+    padding-bottom: 24px;
+}
+
+.pt32 {
+    padding-top: 32px;
+}
+
+.pl8 {
+    padding-left: 8px;
+}
+
+.mr8 {
+    margin-right: 8px;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+.mb24 {
+    margin-bottom: 24px;
+}
+
+.bl {
+    border-left: 1px solid #212529;
+}
+
+.row {
+    margin: 0px -12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-7 {
+    width: 58.3333%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.6666%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.brand-img {
+    width: 1076px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+.brand-img img {
+    width: 100%;
+    display: block;
+}
+
+.content {
+    padding-bottom: 48px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.history {
+    border-bottom: 1px solid #dee2e6;
+    padding: 48px 0px;
+}
+
+.idea {
+    border-bottom: 1px solid #dee2e6;
+    padding: 48px 0px;
+}
+
+.idea li {
+    padding: 0px 12px;
+    border-left: 3px solid #dee2e6;
+}
+
+.story {
+    color: #57a203;
+    padding: 48px 0px;
+}
+
+.story ul li a {
+    color: #57a203;
+    padding-left: 8px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    background: #E8FEC5;
+    padding: 33.5px 0px;
+}
+
+.footer button {
+    padding: 12px 24px;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 5%;
+    background: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.footerNav {
+    background: var(--fifth-color);
+    padding: 64px;
+}
+
+.copyright {
+    border-top: 1px solid var(--third-color);
+    text-align: center;
+}
+
+.copyright p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 5%;
+    color: var(--forth-color);
+}

@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #212529;
+    --second-color:#57A203;
+    --third-color:#DEE2E6;
+    --forth-color:#6C757D;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0px 12px;
+}
+
+.df {
+    display: flex;
+}
+
+.row {
+    margin: 0px -12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding: 0px 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0px 12px;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 0px 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding: 0px 12px;
+}
+
+.col-7 {
+    width: 58.3333%;
+    padding: 0px 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding: 0px 12px;
+}
+
+.py8 {
+    padding: 8px 0px;
+}
+
+.px12 {
+    padding: 0px 12px;
+}
+
+.mr48 {
+    margin-right: 48px;
+}
+
+.aic {
+    align-items: center;
+}
+
+.py12 {
+    padding: 12px 0px;
+}
+
+.py16 {
+    padding: 16px 0px;
+}
+.py64{
+    padding: 64px 0px;
+}
+
+.pb12 {
+    padding-bottom: 12px;
+}
+.pb32{
+    padding-bottom: 32px;
+}
+.pb64{
+    padding-bottom: 64px;
+}
+
+.mr8 {
+    margin-right: 8px;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+.mb8 {
+    margin-bottom: 8px;
+}
+
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.mb16 {
+    margin-bottom: 16px;
+}
+.mb24{
+    margin-bottom: 24px;
+}
+.mb32 {
+    margin-bottom: 32px;
+}
+.mb48{
+    margin-bottom: 48px;
+}
+
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.c4 {
+    color:var(--forth-color);
+}
+
+.green {
+    color: var(--second-color);
+}
+
+.bb {
+    border-bottom: 1px solid var(--third-color);
+}
