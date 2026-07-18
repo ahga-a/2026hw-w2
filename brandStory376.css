@@ -1,0 +1,103 @@
+@media (max-width:376px) {
+    .nav{
+        padding:13px 12px ;
+    }
+    .banner{
+        height: 240px;
+        background-image : url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true) ;
+        background-repeat: no-repeat;
+    }
+    .banner-text {
+        padding: 87px 0px;
+    }
+    .intro{
+        margin: 32px 12px;
+        padding: 24px;
+        text-align: left;
+    }
+    .brand-img{
+        margin-left: 12px;
+        max-width: 343px;
+    }
+    .footer {
+        font-size: 20px;
+        padding: 24px;
+    }
+    .footer button{
+        padding: 8px 16px;
+        margin-left: 4px; 
+    }
+    .footerNav{
+        padding: 32px 12px;
+    }
+    .footerlink p{
+        padding: 12px;
+    }
+
+    /* label */
+    h2{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+
+
+    /* utility */
+    .fz-sm-28{
+        font-size: 28px;
+        line-height: 120%;
+    }
+    .fz-sm-20{
+        font-size: 20px;
+        line-height: 120%;
+    }
+    .d-sm-none {
+        display: none;
+    }
+    .d-sm-block{
+        display: block;
+    }
+    .pb-sm-8{
+        padding-bottom: 8px;
+    }
+    .pb-sm-12{
+        padding-bottom: 12px;
+    }
+    .pb-sm-16{
+        padding-bottom: 16px;
+    }
+    .pb-sm-32{
+        padding-bottom: 32px;
+    }
+    .py-sm-32{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .mb-sm-0{
+        margin-bottom: 0;
+    }
+    .mb-sm-8{
+        margin-bottom: 8px;
+    }
+    .mb-sm-32{
+        margin-bottom: 32px;
+    }
+    .container{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .row{
+        margin-right: -12px;
+        margin-left: -12px;
+    }
+    .col-8{
+        width: 100%;
+    }
+
+
+}

@@ -6,7 +6,9 @@
     --fifth-color: #F8F9FA;
 }
 
-* {
+*,
+::before,
+:after {
     box-sizing: border-box;
 }
 
@@ -50,26 +52,26 @@ a {
 }
 
 .customer span {
-    width: 18px;
-    height: 18px;
-    padding: 3px;
+    width: 48px;
+    height: 48px;
+    padding: 15px;
 }
 
 .logo {
     font-family: "Mina";
     font-weight: 700;
     padding: 8px 12px;
-    margin-right: 48px;
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 4.4%;
+    color: var(--primary-color);
 }
 
 .banner {
     height: 400px;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 
 .banner-text {
@@ -81,25 +83,18 @@ a {
     padding: 151px 0px;
 }
 
-@media (max-width:375px) {
-    .d-sm-none {
-        display: none;
-    }
-}
-
 h2 {
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-    color: #212529;
+    color: var(--primary-color);
     padding-bottom: 24px;
 }
-
-h3 {
-    font-weight: bold;
-    font-size: 20px;
+.h3{
+    font-weight: 700;
+    font-size: 28px;
     line-height: 120%;
-    color: #57a203;
+    letter-spacing: 5%;
 }
 
 h4 {
@@ -107,7 +102,12 @@ h4 {
     line-height: 120%;
     letter-spacing: 5%;
 }
-
+h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #57a203;
+}
 p {
     font-size: 16px;
     color: #212529;
@@ -148,7 +148,9 @@ p {
 .mb12 {
     margin-bottom: 12px;
 }
-
+.mr48{
+    margin-right: 48px;
+}
 .pb16 {
     padding-bottom: 16px;
 }
@@ -156,11 +158,17 @@ p {
 .pb24 {
     padding-bottom: 24px;
 }
+.pb48{
+    padding-bottom: 48px;
+}
 
 .pt32 {
     padding-top: 32px;
 }
-
+.py48{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 .pl8 {
     padding-left: 8px;
 }
@@ -181,6 +189,9 @@ p {
     border-left: 1px solid #212529;
 }
 
+.bb-light{
+    border-bottom: 1px solid #dee2e6;
+}
 .row {
     margin: 0px -12px;
 }
@@ -232,7 +243,8 @@ p {
 }
 
 .brand-img {
-    width: 1076px;
+    width: 100%;
+    max-width: 1076px;
     margin: 0 auto;
     padding-bottom: 24px;
 }
@@ -240,21 +252,7 @@ p {
 .brand-img img {
     width: 100%;
     display: block;
-}
-
-.content {
-    padding-bottom: 48px;
-    border-bottom: 1px solid #dee2e6;
-}
-
-.history {
-    border-bottom: 1px solid #dee2e6;
-    padding: 48px 0px;
-}
-
-.idea {
-    border-bottom: 1px solid #dee2e6;
-    padding: 48px 0px;
+    height: auto;
 }
 
 .idea li {
@@ -265,6 +263,8 @@ p {
 .story {
     color: #57a203;
     padding: 48px 0px;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom:64px ;
 }
 
 .story ul li a {
@@ -272,6 +272,8 @@ p {
     padding-left: 8px;
     font-weight: 500;
     font-size: 16px;
+    text-decoration-line: underline ;
+    text-underline-offset: 5px;
 }
 
 .footer {
@@ -288,6 +290,7 @@ p {
     letter-spacing: 5%;
     background: var(--primary-color);
     color: #FFFFFF;
+    border-radius: 5px;
 }
 
 .footerNav {
